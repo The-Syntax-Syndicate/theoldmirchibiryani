@@ -1,12 +1,9 @@
-import Image from "next/image";
+import React from "react";
 
-// components
-import Button from "@/components/Button";
-
-export default function Page() {
+export default async function Page() {
   return (
-    <div className="">
-      <p>Home</p>
+    <div className="flex justify-center items-center">
+      <h1 className="text-3xl font-bold underline">Hello World!</h1>
     </div>
   );
 }
